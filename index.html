@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Holi Web App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+      <a onclick="showAbout()">About</a>
+    </div>
+
+    <img
+      src="https://i.imgur.com/AW4ckpN.jpg"
+      class="holi-img"
+      alt="Holi Image"
+    />
+
+    <h1>🎨 Happy Holi 🎉</h1>
+    <h2>❤️HAPPY HOLI CODE YOGI AND ALL FRIENDS AND TEACHERS ❤️</h2>
+    <p>Wishing you a colorful and joyful Holi</p>
+
+    <div class="about-me" id="aboutMe">
+      <div class="close-btn" onclick="hideAbout()">✖</div>
+      <h2>About Me</h2>
+      <p><strong>Name:</strong> Jitender</p>
+      <p><strong>Class:</strong> 12th</p>
+      <p><strong>School:</strong> Govt. S.S. School, Bharang, Churu</p>
+      <p><strong>District:</strong> Churu</p>
+    </div>
+
+    <canvas id="holiCanvas"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
